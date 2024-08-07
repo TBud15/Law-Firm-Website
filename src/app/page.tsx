@@ -1,7 +1,10 @@
+import SectionOne from "./components/SectionOne";
+
 export default function Home() {
   return (
     <main>
-      <p className="text-center mt-10">Hello</p>
+      <SectionOne />
+      <p className="text-center mt-10">Main page ui</p>
     </main>
   );
 }
