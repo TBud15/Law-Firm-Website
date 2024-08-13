@@ -26,21 +26,21 @@ export default function Navbar() {
           <span className="text-xl font-bold ml-2">One Law</span>
         </div>
 
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 font-roboto tracking-[.2em]">
           <a href="#" className="text-gray-800 hover:text-gray-600">
-            Home
+            HOME
           </a>
           <a href="#" className="text-gray-800 hover:text-gray-600">
-            About Us
+            ABOUT US
           </a>
           <a href="#" className="text-gray-800 hover:text-gray-600">
-            Family Law
+            FAMILY LAW
           </a>
           <a href="#" className="text-gray-800 hover:text-gray-600">
-            Immigration Law
+            IMMIGRATION LAW
           </a>
           <a href="#" className="text-gray-800 hover:text-gray-600">
-            Contacts
+            CONTACTS
           </a>
         </div>
 
