@@ -7,10 +7,10 @@ export default function SectionTwo() {
         </p>
         <p className="mt-2 font-roboto tracking-widest leading-10">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          industry. Lorem Ipsum has been the industrys standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s.
+          industrys standard dummy text ever since the 1500s.
         </p>
         <div className="flex space-x-5 items-center">
           <p className="ml-8 text-xl italic">John Williams</p>
