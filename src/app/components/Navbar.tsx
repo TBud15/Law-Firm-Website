@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <img
-            src="/Navbar/law-logo.png"
+            src="images/Navbar/law-logo.png"
             alt="Law Logo"
             className="h-20 w-20"
           />

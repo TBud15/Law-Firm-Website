@@ -6,7 +6,7 @@ export default function SectionOne() {
     <section
       className="relative h-[30vh] sm:h-[60vh] bg-cover bg-center"
       style={{
-        backgroundImage: `url('/SectionOne/sec-one.jpg')`,
+        backgroundImage: `url('images/SectionOne/sec-one.jpg')`,
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-20 flex flex-col items-center justify-center">

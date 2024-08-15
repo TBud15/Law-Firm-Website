@@ -1,4 +1,19 @@
+/* Roboto Font */
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Send Flowers Font */
+@font-face {
+  font-family: "Send Flowers";
+  src: url("/fonts/SendFlowers-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
