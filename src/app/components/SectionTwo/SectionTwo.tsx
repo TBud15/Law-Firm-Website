@@ -1,6 +1,9 @@
 export default function SectionTwo() {
   return (
-    <section className="flex flex-col sm:flex-row sm:space-x-20 sm:text-start space-x-0 items-center text-center justify-center">
+    <section
+      className="flex flex-col sm:flex-row sm:space-x-20 sm:text-start space-x-0 items-center text-center justify-center"
+      id="about-us"
+    >
       <div className="w-96 mt-6">
         <p className="font-roboto text-5xl sm:w-24 sm:tracking-widest">
           FOUNDERS TITLE

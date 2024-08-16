@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white py-4 shadow-md">
+    <nav className="bg-white py-4 shadow-md" id="home">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <img
@@ -23,24 +23,30 @@ export default function Navbar() {
             alt="Law Logo"
             className="h-20 w-20"
           />
-          <span className="text-xl font-bold ml-2">One Law</span>
+          <span className="text-xl font-bold font-roboto ml-2">One Law</span>
         </div>
 
         <div className="hidden md:flex space-x-8 font-roboto tracking-[.2em]">
           <a href="#" className="text-gray-800 hover:text-gray-600">
             HOME
           </a>
-          <a href="#" className="text-gray-800 hover:text-gray-600">
+          <a href="#about-us" className="text-gray-800 hover:text-gray-600">
             ABOUT US
           </a>
-          <a href="#" className="text-gray-800 hover:text-gray-600">
+          <a href="#family-law" className="text-gray-800 hover:text-gray-600">
             FAMILY LAW
           </a>
-          <a href="#" className="text-gray-800 hover:text-gray-600">
+          <a
+            href="#immigration-law"
+            className="text-gray-800 hover:text-gray-600"
+          >
             IMMIGRATION LAW
           </a>
-          <a href="#" className="text-gray-800 hover:text-gray-600">
-            CONTACTS
+          <a
+            href="#client-reviews"
+            className="text-gray-800 hover:text-gray-600"
+          >
+            REVIEWS
           </a>
         </div>
 
@@ -71,26 +77,38 @@ export default function Navbar() {
 
       {isOpen && (
         <motion.div
-          className="md:hidden"
+          className="md:hidden flex justify-center text-center font-roboto text-xl"
           initial="hidden"
           animate="visible"
           variants={variants}
           transition={{ duration: 0.5 }}
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#" className="block text-gray-800 hover:text-gray-600">
+            <a href="#" className="block text-gray-800 hover:text-gray-600 p-2">
               Home
             </a>
-            <a href="#" className="block text-gray-800 hover:text-gray-600">
+            <a
+              href="#about-us"
+              className="block text-gray-800 hover:text-gray-600 p-2"
+            >
               About Us
             </a>
-            <a href="#" className="block text-gray-800 hover:text-gray-600">
+            <a
+              href="#family-law"
+              className="block text-gray-800 hover:text-gray-600 p-2"
+            >
               Family Law
             </a>
-            <a href="#" className="block text-gray-800 hover:text-gray-600">
+            <a
+              href="#immigration-law"
+              className="block text-gray-800 hover:text-gray-600 p-2"
+            >
               Immigration Law
             </a>
-            <a href="#" className="block text-gray-800 hover:text-gray-600">
+            <a
+              href="#client-review"
+              className="block text-gray-800 hover:text-gray-600 p-2"
+            >
               Contacts
             </a>
           </div>

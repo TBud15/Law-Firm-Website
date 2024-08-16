@@ -22,7 +22,7 @@ export default function SectionSix() {
   const currentReviewData = reviews[currentRiviewIndex];
 
   return (
-    <section>
+    <section id="client-reviews">
       <div className="flex justify-center mt-8">
         <img src="/images/SectionFour/divider.png" alt="divider" />
       </div>

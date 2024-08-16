@@ -3,7 +3,7 @@ import { cardData } from "./CardData";
 
 const SectionFour: React.FC = () => {
   return (
-    <section>
+    <section id="family-law">
       <div className="flex justify-center mt-8">
         <img src="images/SectionFour/divider.png" alt="divider" />
       </div>

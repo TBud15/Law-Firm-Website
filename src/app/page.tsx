@@ -14,7 +14,6 @@ export default function Home() {
       <SectionFour />
       <SectionFive />
       <SectionSix />
-      <p className="text-center mt-10">Next Component</p>
     </main>
   );
 }
