@@ -53,7 +53,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <motion.button
             onClick={toggleMenu}
-            className="text-gray-800 focus:outline-none"
+            className="text-gray-800 focus:outline-none mr-5"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
           >
