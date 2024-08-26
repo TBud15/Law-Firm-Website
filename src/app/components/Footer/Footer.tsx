@@ -19,7 +19,10 @@ export default function Footer() {
           <Link href="#home" className="hover:underline">
             Home
           </Link>
-          <Link href="/sitemap.xml" className="hover:underline">
+          <Link
+            href="https://law-website-nine.vercel.app/sitemap.xml"
+            className="hover:underline"
+          >
             Sitemap
           </Link>
         </nav>
