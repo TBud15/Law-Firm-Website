@@ -45,7 +45,7 @@ export default function SectionSix() {
             {currentReviewData.text}
           </p>
 
-          <div className="flex items-center mt-14">
+          <div className="flex items-center mt-40 sm:mt-14">
             <img
               className="w-20 rounded-full h-18"
               src={currentReviewData.image}

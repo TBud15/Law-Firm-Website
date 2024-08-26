@@ -20,7 +20,7 @@ export default function SectionThree() {
         ></img>
       </div>
 
-      <div className="w-96 ml-8 text-center mt-5 md:text-start">
+      <div className="w-80 ml-0 text-center mt-5 md:text-start md:ml-8">
         <p className="text-gray-500 font-roboto text-5xl md:w-24 md:tracking-widest">
           TEAM
         </p>

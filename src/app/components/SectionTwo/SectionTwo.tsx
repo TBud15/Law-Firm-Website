@@ -4,11 +4,11 @@ export default function SectionTwo() {
       className="flex flex-col sm:flex-row sm:space-x-20 sm:text-start space-x-0 items-center text-center justify-center"
       id="about-us"
     >
-      <div className="w-96 mt-6">
-        <p className="font-roboto text-5xl sm:w-24 sm:tracking-widest">
+      <div className="w-80 mt-6">
+        <p className="font-roboto text-4xl sm:w-24 sm:tracking-widest sm:text-5xl">
           FOUNDERS TITLE
         </p>
-        <p className="mt-2 font-roboto tracking-widest leading-10">
+        <p className="mt-2 font-roboto tracking-widest leading-6 text-sm sm:text-2xl sm:leading-10">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industrys standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

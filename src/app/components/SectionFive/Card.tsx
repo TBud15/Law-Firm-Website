@@ -7,7 +7,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ icon, title, description }) => {
   return (
     <div className="relative max-w-sm p-6 bg-white rounded-lg shadow-md border transform transition duration-300 hover:scale-105 hover:shadow-lg">
-      <div className="absolute -top-4 -left-4 p-2 bg-white border rounded-full shadow-md">
+      <div className="absolute -top-4 -left-0 sm:-left-4 p-2 bg-white border rounded-full shadow-md">
         <div className="w-8 h-8 text-gray-600 flex items-center justify-center">
           {icon}
         </div>
