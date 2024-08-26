@@ -19,7 +19,7 @@ export default function Footer() {
           <Link href="#home" className="hover:underline">
             Home
           </Link>
-          <Link href="/sitemap" className="hover:underline">
+          <Link href="/sitemap.xml" className="hover:underline">
             Sitemap
           </Link>
         </nav>

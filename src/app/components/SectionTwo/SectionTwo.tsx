@@ -4,7 +4,7 @@ export default function SectionTwo() {
       className="flex flex-col sm:flex-row sm:space-x-20 sm:text-start space-x-0 items-center text-center justify-center"
       id="about-us"
     >
-      <div className="w-80 mt-6">
+      <div className="w-80 md:w-96 mt-6">
         <p className="font-roboto text-4xl sm:w-24 sm:tracking-widest sm:text-5xl">
           FOUNDERS TITLE
         </p>
