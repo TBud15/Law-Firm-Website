@@ -6,7 +6,7 @@ export default function Button() {
         className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 md:py-3 md:px-6 border border-gray-400 rounded shadow text-sm md:text-base flex space-x-2 opacity-90 mb-5"
         aria-label="Call us"
       >
-        <span>Call Us Now</span>
+        <span>Call Us</span>
         <svg
           viewBox="0 0 24 24"
           fill="none"
