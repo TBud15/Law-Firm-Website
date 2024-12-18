@@ -31,7 +31,7 @@ export default function Navbar() {
             HOME
           </a>
           <a href="#about-us" className="text-gray-800 hover:text-gray-600">
-            ABOUT US
+            ABOUT
           </a>
           <a href="#family-law" className="text-gray-800 hover:text-gray-600">
             FAMILY LAW
